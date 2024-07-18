@@ -1,6 +1,6 @@
-import Info from "./component/Info";
-import MyButton from "./component/MyButton";
-import ProfileImage from "./component/ProfileImage";
+import Info from "./components/Info";
+import MyButton from "./components/MyButton";
+import ProfileImage from "./components/ProfileImage";
 
 export default function Home() {
     const socialMedias = [
