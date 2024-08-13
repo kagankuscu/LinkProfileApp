@@ -1,5 +1,5 @@
-import styles from './MyButton.module.css';
-import font from '../css/Font.module.css';
+import '../css/mybutton.css';
+import '../css/font.css';
 
 interface MyButtonProps {
     title: string,
@@ -7,9 +7,8 @@ interface MyButtonProps {
 }
 
 const MyButton = ({ title, href } : MyButtonProps) => {
-    return <div className={`${styles.button} ${styles["button-container"]}`}>
-        <a target="_blank" className={`${font['roboto-regular']} ${styles.button} ${styles["button-body"]}`} style={{
-        }} href={href}>{title}</a>
+    return <div className='button button-container'>
+        <a target="_blank" className='roboto-regular button button-body' href={href}>{title}</a>
     </div>;
 };
 export default MyButton;

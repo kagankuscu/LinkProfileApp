@@ -1,4 +1,4 @@
-import '../css/ProfileImage.css';
+import '../css/profileImage.css';
 
 const ProfileImage = () => {
     return (
