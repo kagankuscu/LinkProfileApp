@@ -2,8 +2,8 @@ import styles from './MyButton.module.css';
 import font from '../css/Font.module.css';
 
 interface MyButtonProps {
-    title: string;
-    href: string;
+    title: string,
+    href: string,
 }
 
 const MyButton = ({ title, href } : MyButtonProps) => {

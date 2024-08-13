@@ -12,7 +12,7 @@ const App = () => {
     <div className='container'> 
       <ProfileImage />
       <Info name="Kagan Kuscu" role=".Net Developer" />
-      { socialMedias.map((item) => <MyButton key={item.key} title={item.key} href={item.value}>{item.key}</MyButton> )}
+      { socialMedias.map((item) => <MyButton key={item.key} title={item.key} href={item.value} /> )}
     </div>
   );
 }
