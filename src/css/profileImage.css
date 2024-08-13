@@ -4,6 +4,9 @@
     justify-content: center;
 }
 .image-body {
+    background-image: url('../assets/images/kagan.jpg');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
     background-color: grey;
     border: 5px solid black;
     border-radius: 50%;
