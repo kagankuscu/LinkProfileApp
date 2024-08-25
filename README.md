@@ -49,6 +49,9 @@ Netlify supports adding a custom domain. You can configure it through your Cloud
 
 You can see the deployed version of the application at [kuscu.net.tr](www.kuscu.net.tr).
 
+**PWA**
+The project includes PWA functionality, allowing you to install it directly on your PC or mobile device for easy access.
+
 ## Screenshots
 
 ![App Screenshot](https://raw.githubusercontent.com/kagankuscu/LinkProfileApp/main/screenshot/Screenshot%20from%202024-08-13%2015-47-03.png)
